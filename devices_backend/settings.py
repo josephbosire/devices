@@ -126,4 +126,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = ["*"]  # TODO: Update before deploying to production
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000"
+]  # TODO: Update before deploying to production
